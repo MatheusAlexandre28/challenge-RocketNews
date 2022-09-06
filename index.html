@@ -17,11 +17,14 @@
     <p class="text">tudo que você precisa saber para começar seu dia bem e informado</p>
     <p class="textgray">noticias sobre o universo Rocketseat. E tudo o que precisa para começar o dia melhor. 
       <br> perfeito para se preparar para codar ☕</p>
-    <form action="/" method="get">
-      <label class="email" for="email">
+    <form  class="email"  action="/" method="get">
+      <label for="email">
         Insira seu e-mail: 
         <br>
-        <input class="input" id="email" name="email" type="email" autocomplete="email" form="email" placeholder="oi@gmail.com" required>
+        <div class="inputButtondiv">
+          <input class="input" id="email" name="email" type="email" autocomplete="email" form="email" placeholder="oi@gmail.com" required title="Coloque seu email">
+          <button class="button" type="submit"><img src="./assets/send.svg" alt=""></button>
+        </div>
       </label>
     </form>
     <a class="arrow" href=""> deixe-me ler primeiro<img src="./assets/arrow-right.svg"> </a>
